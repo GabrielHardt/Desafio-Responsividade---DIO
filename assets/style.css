@@ -9,10 +9,6 @@ body {
     overflow-x: hidden
 }
 
-main {
-    
-}
-
 header {
     background-image: url("./images/66413fdaffd7b36fd00f578891f19f7c.png");
     background-size: cover;
@@ -49,8 +45,6 @@ button {
     font-size: 17px;
     margin: 5px;
     margin-top: 10px;
-    
-
 }
 
 #button1 {
@@ -66,36 +60,57 @@ button {
 }
 
 
-.section-1 {
+.section {
     display: flex;
     height: 440px;
     justify-content: center;
     margin-top: 10px;
+    padding: 25px
 }
 
-.section-1 h2 {
+ h2 {
     font-family: 'open sans';
     font-size: 2.3rem;
     color: #23272A;
     font-weight: 800;
 }
 
-.section-1 p {
+ p {
     font-family: 'open sans';
 }
 
-.texto-section-1 {
+.texto {
     height: 329px;
     width: 329px;
-    align-self: flex;
 }
 
-
-
-
-.section-2 {
-    width: 100vw;
-    height: 394px;
+.cor {
     background-color: #F6F6F6;
-    
+}
+
+.diferente {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.diferente h2 {
+    width: 608px;
+    text-align: center;;
+}
+
+.diferente p {
+    width: 802px;
+}
+
+.texto .quatro {
+    width: 802px;
+}
+
+footer {
+    background-color: #23272A;
+    padding: 35px 0px 36px 0;
+    text-align: center;
 }
