@@ -6,6 +6,11 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #ffffff;
+    overflow-x: hidden
+}
+
+main {
+    
 }
 
 header {
@@ -51,9 +56,46 @@ button {
 #button1 {
     background-color: white;
     padding: 15px 20px 15px;
+    border-color: transparent;
 }
 
 #button2 {
     background-color: #23272A;
     color: white;
+    border-color: transparent;
+}
+
+
+.section-1 {
+    display: flex;
+    height: 440px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.section-1 h2 {
+    font-family: 'open sans';
+    font-size: 2.3rem;
+    color: #23272A;
+    font-weight: 800;
+}
+
+.section-1 p {
+    font-family: 'open sans';
+}
+
+.texto-section-1 {
+    height: 329px;
+    width: 329px;
+    align-self: flex;
+}
+
+
+
+
+.section-2 {
+    width: 100vw;
+    height: 394px;
+    background-color: #F6F6F6;
+    
 }
