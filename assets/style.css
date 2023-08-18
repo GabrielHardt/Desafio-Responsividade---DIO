@@ -3,10 +3,13 @@
 
 body {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
     background-color: #ffffff;
     overflow-x: hidden
+}
+
+
+img {
+    max-width: 100%;
 }
 
 header {
@@ -17,6 +20,7 @@ header {
     text-align: center; 
     padding: 50px; 
 }
+
 
 .header-content {
     width: 757px;
@@ -65,7 +69,9 @@ button {
     height: 440px;
     justify-content: center;
     margin-top: 10px;
-    padding: 25px
+    padding: 25px;
+    margin: 0;
+
 }
 
  h2 {
@@ -114,3 +120,23 @@ footer {
     padding: 35px 0px 36px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 428px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 506px;
+        overflow: hidden;
+        margin: auto;
+        background-image: url(./images/10ec01929691d59b4715e3071bedc7a2.png); width: 459px;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+    
+    body {
+        ;
+    }
+    }
