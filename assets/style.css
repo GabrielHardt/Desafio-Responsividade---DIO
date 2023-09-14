@@ -165,7 +165,7 @@ section {
     margin-top: 3rem;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 428px) {
     html, body {
         min-height: 100%;
    }
@@ -217,6 +217,39 @@ section {
     #headline {
         text-align: left;
         font-size: 1.5rem;
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .container p {
+        width: 90%;
+    }
+
+    #different #headline {
         width: 80%;
+        margin: 0;
+        padding: 25px;
+        padding-left: 30px;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    
+    #different p {
+        text-align: left;
+        width: 80%;
+        margin: 0;
+        padding-left: 30px;
+    }
+
+
+    .segunda {
+        order: -1;
+    }
+
+    #troca {
+        display: flex;
+        height: 95%;
     }
 }
+
