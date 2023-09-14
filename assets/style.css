@@ -168,6 +168,7 @@ section {
 @media screen and (max-width: 428px) {
     html, body {
         min-height: 100%;
+        overflow-x: hidden;
    }
 
     .showcase-contaner h1 {
