@@ -8,6 +8,8 @@
 
 img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -161,4 +163,60 @@ section {
 .footer img {
     width: 14.3rem;
     margin-top: 3rem;
+}
+
+@media screen and (max-width: 390px) {
+    html, body {
+        min-height: 100%;
+   }
+
+    .showcase-contaner h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .btn {
+       width: 80%;
+    }
+    
+    .showcase-contaner h1 {
+        text-align: left;
+        width: 60%;
+        padding-left: 24px;
+        align-items: left;
+    }
+
+    .showcase {
+        height: 65vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(.//images/showcase.png) no-repeat center center/cover;
+    }
+
+    .showcase-contaner p {
+        text-align: left;
+        width: 85%;
+    }
+
+    section {
+        height: 573px;
+    }
+
+    .container img {
+        width: 428px;
+        height: 252px;
+    }
+
+    .texto {
+        align-items: left;
+        width: 80%;
+    }
+
+    #headline {
+        text-align: left;
+        font-size: 1.5rem;
+        width: 80%;
+    }
 }
